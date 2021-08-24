@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>See the Spectrum</title>
+    <link href="spectrum.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+    <!--adding fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div>
+        <div class="container">
+          <div>
+            <img class="header-img" src="assets/butterfly2.jpg" alt="this a image of many diffrent types of multi-colored butterflies on a white background. On top of the image the words 'this is autism' are printed">
+          </div>
+          <h1 class="centered header-text">See the Spectrum</h1>
+        </div>
+        <div class="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="what.html">What is Autism</a></li>
+            <li><a class="active" href="spectrum.html">See the Spectrum</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="takeAction.html">Take Action</a></li>
+            <li><a class="blogbtn" href="blog.html">Learn About Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="flex-box-spectrum">
+        <div>
+          <p class="main-text-spectrum">Click on the dots below to meet some members of the Autistic Community!</p>
+        </div>
+        <div class="container-spectrum">
+          <div>
+            <img class="img-size-spectrum" src="assets/spectrum2.jpg" alt="This is a horizontal rainbow of oil pastel swatches. The colors move from left to right going yellows, reds, pinks, blues, greens, browns, grey, and black.">
+          </div>
+          <!-- Making Popups -->
+          <div id="dot1" class="popup1" onclick="popUpFunction1()">
+            <span class="popuptext1 popupflex1" id="myPopup1">
+              <div>
+                <a class="popuplink" href="https://www.biography.com/activist/temple-grandin">Mary Temple Grandin</a> is an animal behavior scientist who has worked to make the cattle-industry more humane. She is the recipient of several awards for her work in this area and for her work as an autism rights advocate.
+              </div>
+              <!-- "Temple Grandin, Auditorium Speaker" by ALA - The American Library Association is licensed with CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/ -->
+              <img class="popupimg1" src="assets/Temple Grandin.jpg" alt="This is a professionally done image of Temple Grandin. She is an older woman with chin length brown hair. She is wearing a white button up with ornate brown embroidery across the top. She has a black neckerchief and is wearing black slacks. She is kneeling beside three golden retrievers in front of a gray backdrop.">
+              </span>
+          </div>
+
+          <div id="dot2" class="popup2" onclick="popUpFunction2()">
+            <span class="popuptext2" id="myPopup2"><a class="popuplink" href="https://www.alonzoclemons.com/about">Alonzo Clemons</a> uses wax and clay to sculpt outstanding animal sculptures. He demonstrates his skill at schools in his area and his work has been featured in various television programs. He also competed in the Special Olympics as a powerlifter! He has a condition called <a class="popuplink" href="https://www.alonzoclemons.com/savant-syndrome">Savant Syndrome</a>, which, in this case, means that he has both autism and a genius-level skill in sculpting.</span>
+          </div>
+
+          <div id="dot3" class="popup3" onclick="popUpFunction3()">
+            <span class="popuptext3 popupflex3" id="myPopup3">
+              <div>
+                <a class="popuplink" href="https://www.susanboylemusic.com/about/">Susan Boyle</a> is a singer from Glasglow who was featured singing a rendition of I Dreamed a Dream from Les Misérables on Britain's Got Talent in 2009. After winning second place on the show she went on to become a bestselling artist both in the US and the UK.<br><br>See what she has to say about being autistic <a class="popuplink" href="https://www.theguardian.com/music/2013/dec/08/susan-boyle-autism">here</a>.
+              </div>
+                <iframe id="susanboylevid" width="auto" height="167px" src="https://www.youtube.com/embed/TL0dfzK3Aqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </span>
+          </div>
+
+          <div id="dot4" class="popup4" onclick="popUpFunction4()">
+            <span class="popuptext4 popupflex4" id="myPopup4">
+              <div>
+                <a class="popuplink" href="https://www.stephenwiltshire.co.uk/biography">Stephen Wiltshire</a> specializes in drawing detailed reproductions of cityscapes and classic American cars. He also draws portraits and "snapshots" capturing interesting aspects of his life. He has traveled around the world documenting what he sees via his art and was eventually named a Member of the Order of the British Empire by Queen Elizabeth II for his contributions to the world of art.
+              </div>
+              
+              <!-- "#cdmx #cdmxdememoria el artista Stephen Wiltshire casi terminando el dibujo de la ciudad" by Yolanda Arango is licensed with CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/ -->
+              <img class="popupimg4" src="assets/stephenWiltshire.jpg" alt="This is an image of Stephen Wiltshire sitting in front of a giant piece of paper spread across the wall. On it he is drawing a massive cityscape complete with skyscrapers, cars, and forests. He is wearing a blue baseball cap, black headphones, and a black suit jacket with grey patches on the elbows.">
+            </span>
+          </div>
+
+          <div id="dot5" class="popup5" onclick="popUpFunction5()">
+            <span class="popuptext5 popupflex5" id="myPopup5">
+              <div>
+                Dan Aykroyd has autism and Tourette syndrome. He is a comedian, actor, singer, and (we can't forget) the writer of <a class="popuplink" href="https://childmind.org/blog/dan-aykroyd-says-being-on-the-spectrum-helped-him-make-ghostbusters/">Ghostbusters</a>. He says that his autism caused an obsession with ghosts and law enforcement, which lead to the idea for his movie.<br><br>(From left to right this photo features Bill Murray, Dan Aykroyd, and Harold Ramis)
+              </div>
+
+              <!-- "Bill Murray, Dan Aykroyd and Harold Ramis filming Ghostbusters (1984)" by gameraboy is licensed with CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/ -->
+              <img class="popupimg5" src="assets/danAykroyd.jpg" alt="This is a picture of Bill Murray, Dan Aykroyd, and Harold Ramis leaning against the car from the movie. They are all in their Ghostbusters uniforms">
+            </span>
+          </div>
+
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

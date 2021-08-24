@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+.cardtxt {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.datetxt {
+  padding: 10px 10px 10px 0px;
+}
+
+.abthead {
+  padding-bottom: 20px;
+}
+
+.abttxt {
+  padding-top: 20px;
+}
+
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.aboutimg {
+  background-color: #0F4C5C;
+  width: 100%;
+  padding: 20px;
+}
+
+.meaboutimg {
+  width: 265px;
+}
+
+.atemimg {
+  width: 96%;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.chgimg {
+  width: 96%;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.aboutcard {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.up1 {
+  background-color: #fec701;
+  padding: 10px;
+}
+
+.up2 {
+  background-color: #658ba5;
+  padding: 10px;
+}
+
+.up3 {
+  background-color: #ae221a;
+  padding: 10px;
+}
+
+.up4 {
+  background-color: #fb735a;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}

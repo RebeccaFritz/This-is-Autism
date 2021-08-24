@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+}
+
+/* nav bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  display: inline;
+  padding: 10px 16px;
+  text-decoration: none;
+  color: #E6EBE0;
+  background-color: #437C90;
+}
+
+li a:hover {
+  background-color:#00B8B1;
+  color:#E6EBE0;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #17254F;
+  color:#E6EBE0;
+}
+
+.nav {
+  margin-top: -5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #437C90;
+}
+
+.blogbtn {
+  float: right;
+  margin-top: -10px;
+}
+
+/* Banners */
+.header-img {
+  width: 100%;
+}
+
+.header-text {
+  background-color: #17254F;
+  color: #E6EBE0;
+  padding: 20px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Make element sizes and positions change when the screen size gets below a certain width */
+@media screen and (max-width: 850px) {
+  /* .flex-box-about {flex-wrap: wrap;}
+  .flex-box-action {flex-wrap: wrap;}
+} */
+
+@media screen and (max-width: 850px) {
+  .header-text {font-size: 20px;}
+}
+
+@media screen and (max-width: 600px) {
+  li a {display: block;}
+  .blogbtn {float: none; margin-top: 0px;}
+}
